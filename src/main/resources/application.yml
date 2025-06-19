@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: backend-challenge-reactive
+
+  r2dbc:
+    url: ${SPRING_R2DBC_URL:r2dbc:postgresql://localhost:5432/api_historial}
+    username: ${SPRING_R2DBC_USERNAME:postgres}
+    password: ${SPRING_R2DBC_PASSWORD:postgres}
+    initialization-mode: always
+
+logging:
+  level:
+    root: INFO
+
+server:
+  port: 8080
+
+external:
+  percentage:
+    url: ${EXTERNAL_PERCENTAGE_URL:http://localhost:8080/mock-percentage}

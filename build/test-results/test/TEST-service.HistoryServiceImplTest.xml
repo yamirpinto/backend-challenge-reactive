@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="service.HistoryServiceImplTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-06-19T05:47:51" hostname="DESKTOP-V8BL1R8" time="0.133">
+  <properties/>
+  <testcase name="findAll_pagination_page0()" classname="service.HistoryServiceImplTest" time="0.119"/>
+  <testcase name="findAll_pagination_page1()" classname="service.HistoryServiceImplTest" time="0.007"/>
+  <testcase name="saveEntry_success()" classname="service.HistoryServiceImplTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
